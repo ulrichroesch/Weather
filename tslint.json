@@ -1,0 +1,38 @@
+{
+  "rulesDirectory": [
+    "./node_modules/tslint-microsoft-contrib",
+    "./node_modules/tslint-lines-between-class-members"
+  ],
+  "extends": [
+    "tslint:latest",
+    "tslint-plugin-prettier",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "printWidth": 140,
+        "singleQuote": true,
+        "trailingComma": "all"
+      }
+    ],
+    "object-literal-sort-keys": false,
+    "no-object-literal-type-assertion": false,
+    "member-access": false,
+    "prefer-conditional-expression": false,
+    "member-ordering": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape",
+      "avoid-template"
+    ],
+    "no-implicit-dependencies": false,
+    "no-duplicate-imports": false,
+    "no-submodule-imports": false,
+    "no-bitwise": false,
+    "no-unnecessary-initializer": false,
+    "lines-between-class-members": true
+  }
+}
